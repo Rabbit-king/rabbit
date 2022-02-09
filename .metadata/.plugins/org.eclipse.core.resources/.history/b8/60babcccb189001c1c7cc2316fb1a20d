@@ -11,6 +11,6 @@ public class data {
 		System.out.println("请输入你的生日（格式XX.XX）");
 		s1=s.nextInt();
 		
-		System.out.println(s1);
+		System.out.println();
 	}
 }

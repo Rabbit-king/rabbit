@@ -6,11 +6,10 @@ import java.util.Scanner;
 //ctrl+？是注释
 public class data {
 	public static void main(String[] args) {
-		int s1;
+		String s1;
 		Scanner s=new Scanner(System.in);
 		System.out.println("请输入你的生日（格式XX.XX）");
-		s1=s.nextInt();
+		s1=s.nextLine();
 		
-		System.out.println(s1);
 	}
 }
