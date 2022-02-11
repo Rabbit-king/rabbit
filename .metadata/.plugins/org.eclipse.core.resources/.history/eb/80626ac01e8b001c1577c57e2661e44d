@@ -26,8 +26,6 @@ class Solution {
 		Stack<Character> stc = new Stack<>();
 		// 定义一个栈
 		for (int i = 0; i < s.length(); i++) {
-			if ((s.charAt(i) == ']' || s.charAt(i) == '}' || s.charAt(i) == '(')&&stc.isEmpty()) 
-				return false;
 			if (s.charAt(i) == '[' || s.charAt(i) == '{' || s.charAt(i) == '(') {
 				stc.push(s.charAt(i));
 			} else {
