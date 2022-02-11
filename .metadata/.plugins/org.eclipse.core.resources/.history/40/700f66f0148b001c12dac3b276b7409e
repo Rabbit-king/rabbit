@@ -1,0 +1,29 @@
+package first;
+
+import java.util.Scanner;
+import java.util.Stack;
+
+public class first {
+
+}
+class Solution<E> {
+	String s ="";
+	public void input() {
+		Scanner scan=new Scanner(System.in);
+		
+		s=scan.nextLine();
+		scan.close();
+	}
+	
+    public boolean isValid(String s) {
+		Stack<char> stc=new Stack<char>();
+		//定义一个栈
+    	for(int i=0 ;i<s.length();i++) {
+    		if(s.charAt(i)=='['||s.charAt(i)=='{'||s.charAt(i)=='(') {
+    			stc.push(s.charAt(i));
+    			
+    		}
+    	}
+    	return false;
+    }
+}
