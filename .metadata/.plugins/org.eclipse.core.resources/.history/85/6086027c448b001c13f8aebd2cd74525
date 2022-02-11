@@ -36,22 +36,16 @@ class Solution {
 					if (stc.peek() == '[') {
 						stc.pop();
 					}
-					else
-						return false;
 				}
 				if (s.charAt(i) == '}') {
 					if (stc.peek() == '{') {
 						stc.pop();
 					}
-					else
-						return false;
 				}
 				if (s.charAt(i) == ')') {
 					if (stc.peek() == '(') {
 						stc.pop();
 					}
-					else
-						return false;
 				}
 			}
 		}

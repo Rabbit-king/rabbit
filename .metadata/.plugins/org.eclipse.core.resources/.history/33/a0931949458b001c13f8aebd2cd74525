@@ -40,27 +40,3 @@ class Solution1 {
 //链接：https://leetcode-cn.com/problems/valid-parentheses/solution/you-xiao-de-gua-hao-by-leetcode-solution/
 //来源：力扣（LeetCode）
 //著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
-
-
-//class Solution {
-//    public boolean isValid(String s) {
-//        Stack<Character> stack = new Stack<>();
-//        char[] chars = s.toCharArray();
-//        for (char aChar : chars) {
-//            if (stack.size() == 0) {
-//                stack.push(aChar);
-//            } else if (isSym(stack.peek(), aChar)) {
-//                stack.pop();
-//            } else {
-//                stack.push(aChar);
-//            }
-//        }
-//        return stack.size() == 0;
-//    }
-//    
-//    private boolean isSym(char c1, char c2) {
-//        return (c1 == '(' && c2 == ')') || (c1 == '[' && c2 == ']') || (c1 == '{' && c2 == '}');
-//    }
-//}
-//
-//计算速度非常快

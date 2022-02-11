@@ -30,28 +30,21 @@ class Solution {
 				return false;
 			if (s.charAt(i) == '[' || s.charAt(i) == '{' || s.charAt(i) == '(') {
 				stc.push(s.charAt(i));
-			} 
-			else {
+			} else {
 				if (s.charAt(i) == ']') {
 					if (stc.peek() == '[') {
 						stc.pop();
 					}
-					else
-						return false;
 				}
 				if (s.charAt(i) == '}') {
 					if (stc.peek() == '{') {
 						stc.pop();
 					}
-					else
-						return false;
 				}
 				if (s.charAt(i) == ')') {
 					if (stc.peek() == '(') {
 						stc.pop();
 					}
-					else
-						return false;
 				}
 			}
 		}
