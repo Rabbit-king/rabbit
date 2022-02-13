@@ -1,0 +1,61 @@
+package first;
+
+import java.util.Scanner;
+
+//罗马数字包含以下七种字符： I(1)， V(5)， X(10)， L(50)，C(100)，D(500) 和 M(1000)。
+//给你一个整数，将其转为罗马数字。
+
+public class first {
+	
+}
+
+class Solution {
+	int num=0;
+	int temp=0;
+	String s;
+	
+	public void input() {
+		System.out.println("请输入一个1到3999的数字");
+		Scanner scan=new Scanner(System.in);
+		num=scan.nextInt();
+		scan.close();
+	}
+    public String intToRoman(int num) {
+		if(num<1||num>3999)
+			System.out.println("输入错误");
+		
+		while(num>0) {
+			temp=num/1000;
+			num=num%1000;
+			for(int i=0;i<temp;i++)
+				s.concat("M");
+			
+			temp=num/500;
+			num=num%500;
+			for(int i=0;i<temp;i++)
+				s.concat("D");
+			
+			temp=num/100;
+			num=num%100;
+			for(int i=0;i<temp;i++)
+				s.concat("C");
+			
+			temp=num/50;
+			num=num%50;
+			for(int i=0;i<temp;i++)
+				s.concat("L");
+			
+			temp=num/10;
+			num=num%10;
+			for(int i=0;i<temp;i++)
+				s.concat("X");
+			
+			temp=num/5;
+			num=num%5;
+			for(int i=0;i<temp;i++)
+				s.concat("V");
+		}
+		
+    		return s;
+    }
+}
