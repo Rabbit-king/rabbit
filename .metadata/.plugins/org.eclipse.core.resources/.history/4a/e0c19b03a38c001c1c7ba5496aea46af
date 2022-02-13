@@ -25,25 +25,21 @@ class Solution {
 
 	public int reverse(int x) {
 		Str = x + "";
-		if(x==0)
-			return 0;
-		
+
 		Str = new StringBuffer(Str).reverse().toString();
 
 		while(Str.indexOf("0")==0) {
-			Str=Str.replaceFirst(Str.charAt(0)+"","");
+			Str.replace("0","");
 		}
 		if (Str.endsWith("-")) {
 			Str = "-" + Str.replace(Str.charAt(Str.length() - 1) + "", "");
 		}
 
-		return  Integer.parseInt(Str);
+		return Integer.parseInt(Str);
 	}
 }
 
 //算法很有问题，算学习字符串如何使用的吧，另外还需要学习 ?:的用法
-//replace是替换所有的，replaceFirst替换第一个遇到的
-//题目有说有溢出情况，需要考虑
 
 //public int reverse(int x) {
 //    long n = 0;
