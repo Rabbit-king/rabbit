@@ -15,7 +15,7 @@ public class first {
 		Solution S = new Solution();
 		System.out.println("请输入一个数字");
 		Scanner scan = new Scanner(System.in);
-		System.out.println(S.reverse(scan.nextLong()));
+		System.out.println(S.reverse(scan.nextInt()));
 		scan.close();
 	}
 }
@@ -23,12 +23,10 @@ public class first {
 class Solution {
 	String Str = "";
 
-	public int reverse(long x) {
+	public int reverse(int x) {
 		Str = x + "";
-	
 		if(x==0)
 			return 0;
-		
 		
 		Str = new StringBuffer(Str).reverse().toString();
 
@@ -39,12 +37,7 @@ class Solution {
 			Str = "-" + Str.replace(Str.charAt(Str.length() - 1) + "", "");
 		}
 
-		long n=Long.parseLong(Str);
-		
-		if((int)n!=n)
-			return 0;
-		else
-			return (int)n;
+		return  Integer.parseInt(Str);
 	}
 }
 

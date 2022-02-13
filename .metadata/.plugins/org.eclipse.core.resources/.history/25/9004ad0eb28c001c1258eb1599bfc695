@@ -28,7 +28,8 @@ class Solution {
 	
 		if(x==0)
 			return 0;
-		
+		if((int)x!=x)
+			return 0;
 		
 		Str = new StringBuffer(Str).reverse().toString();
 
@@ -39,12 +40,7 @@ class Solution {
 			Str = "-" + Str.replace(Str.charAt(Str.length() - 1) + "", "");
 		}
 
-		long n=Long.parseLong(Str);
-		
-		if((int)n!=n)
-			return 0;
-		else
-			return (int)n;
+		return  Integer.parseInt(Str);
 	}
 }
 
