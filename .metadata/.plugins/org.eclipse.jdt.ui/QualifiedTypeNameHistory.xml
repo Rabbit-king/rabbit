@@ -23,9 +23,10 @@
     <fullyQualifiedTypeName name="third.Solution"/>
     <fullyQualifiedTypeName name="jdk.vm.ci.meta.Local"/>
     <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="first.Solution"/>
     <fullyQualifiedTypeName name="second.second"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="second.solu"/>
 </qualifiedTypeNameHistroy>
