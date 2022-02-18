@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 public class first {
 	public static void main(String[] args) {
-		Solution S = new Solution();
+		Solution S=new Solution();
 		Scanner scan = new Scanner(System.in);
 
 		int x = scan.nextInt();

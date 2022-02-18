@@ -1,0 +1,31 @@
+package first;
+
+//给定一个字符串 s ，请你找出其中不含有重复字符的 最长子串 的长度。
+
+public class first {
+
+}
+
+class Solution {
+    public int lengthOfLongestSubstring(String s) {
+    	if(s.length()<=1) {
+    		return s.length();
+    	}
+    	
+    	int num=s.length();
+    	
+    	for(int i=0;i<num;i++) {
+    		for(int j=i+1;j<=num;j++) {
+    			s2=s.substring(i, j);
+    			String s1=new StringBuffer(s2).reverse().toString();
+    			if(s1.equals(s2))
+    		}
+    	}
+    	
+    	
+		
+		
+    	
+    	return 0;
+    }
+}

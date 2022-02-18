@@ -1,6 +1,0 @@
-package first;
-//要求用户输入16个数，如果用户输入的数大于32，则要求重新输入
-public class first {
-	int a[]=new int[16];
-	
-}
