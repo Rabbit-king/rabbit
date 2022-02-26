@@ -1,0 +1,14 @@
+package first;
+
+public class first {
+
+}
+
+class Solution {
+    public String addBinary(String a, String b) {
+		long aa=Long.parseLong(a);
+		long bb=Long.parseLong(b);
+    	
+    	return null;
+    }
+}
