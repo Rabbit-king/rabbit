@@ -1,0 +1,17 @@
+package first;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class first {
+
+}
+
+class Solution {
+    public List<List<Integer>> generate(int numRows) {
+    	List<Integer> L1=new LIst<Integer>();
+    	
+    	
+		return null;
+    }
+}
