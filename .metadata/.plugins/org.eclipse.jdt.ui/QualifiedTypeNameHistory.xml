@@ -13,7 +13,6 @@
     <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
     <fullyQualifiedTypeName name="third.third"/>
-    <fullyQualifiedTypeName name="third.Solution"/>
     <fullyQualifiedTypeName name="jdk.vm.ci.meta.Local"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="second.solu"/>
@@ -30,6 +29,9 @@
     <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="first.Solution"/>
+    <fullyQualifiedTypeName name="first.mp"/>
+    <fullyQualifiedTypeName name="second.selected"/>
+    <fullyQualifiedTypeName name="third.Solution"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>

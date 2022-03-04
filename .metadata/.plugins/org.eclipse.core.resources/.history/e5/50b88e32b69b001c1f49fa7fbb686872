@@ -1,0 +1,13 @@
+package second;
+
+public class second {
+
+}
+
+class selected{
+	public int[] selectedchanged() {
+		int[] a= new int[];
+		
+		return a;
+	}
+}
