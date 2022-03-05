@@ -1,0 +1,14 @@
+package first;
+
+public class first {
+
+}
+
+class Solution {
+    public boolean isHappy(int n) {
+		boolean res;
+
+		
+		return res;
+    }
+}

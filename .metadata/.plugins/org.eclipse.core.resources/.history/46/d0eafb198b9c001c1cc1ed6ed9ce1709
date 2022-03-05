@@ -1,0 +1,25 @@
+package first;
+
+public class first {
+
+}
+
+class Solution {
+    public boolean isHappy(long n) {
+
+		long sum=0;
+		while(sum>3) {
+			sum=0;
+			while(n>0) {
+				sum=sum+(n%10)*(n%10);
+				n=n/10;
+			}
+			n=sum;
+		}
+		
+		if(sum==1)
+			return true;
+		else
+			return false;
+    }
+}

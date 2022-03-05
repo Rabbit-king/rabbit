@@ -31,8 +31,7 @@ class selected{
 			temp=a[i];
 			a[i]=a[min_index];
 			a[min_index]=temp;
-		}
-		
+		}	
 		return a;
 	}
 }
