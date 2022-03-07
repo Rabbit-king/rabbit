@@ -26,7 +26,6 @@
     <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
     <fullyQualifiedTypeName name="first.first"/>
     <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="first.mp"/>
     <fullyQualifiedTypeName name="second.selected"/>
@@ -36,4 +35,10 @@
     <fullyQualifiedTypeName name="Insert_Sort.sort_In"/>
     <fullyQualifiedTypeName name="Insert_Sort.shell_sorted"/>
     <fullyQualifiedTypeName name="first.Solution"/>
+    <fullyQualifiedTypeName name="javax.smartcardio.CommandAPDU"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="MergeSorted.Merge"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.lang.Comparable"/>
+    <fullyQualifiedTypeName name="quicksort.quick"/>
 </qualifiedTypeNameHistroy>

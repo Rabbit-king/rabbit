@@ -1,0 +1,11 @@
+package MergeSorted;
+
+public class Merge {
+	public static Comparable<?>[] a;
+	
+	public boolean compare(Comparable w,Comparable v) {
+		return w.compareTo(v);
+	}
+	
+	
+}

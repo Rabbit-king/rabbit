@@ -1,0 +1,11 @@
+package MergeSorted;
+
+public class Merge {
+	public static Comparable<?>[] a;
+	
+	public void compare(Comparable<?> a) {
+		
+	}
+	
+	
+}

@@ -1,0 +1,39 @@
+package MergeSorted;
+
+
+public class Merge {
+	public static Comparable<?>[] assist;
+	
+	//±È½Ï
+	public boolean compare(Comparable w,Comparable v) {
+		return w.compareTo(v)<0;
+	}
+	
+	//½»»»
+	public void exch(Comparable[] a,int i,int j) {
+		Comparable temp;
+		temp=a[i];
+		a[i]=a[j];
+		a[j]=temp;
+	}
+	
+	public void sort(Comparable[] a) {
+		assist=new Comparable[a.length];
+		
+		int low=0;
+		int height=a.length-1;
+		
+		int mid=(low+height)/2;
+		
+		sort(a,low,mid);
+		sort(a,mid+1;height);
+		
+		
+	}
+	
+	public void sort(Comparable a,int low,int height) {
+		if(low>=height)
+			return ;
+	}
+	
+}
