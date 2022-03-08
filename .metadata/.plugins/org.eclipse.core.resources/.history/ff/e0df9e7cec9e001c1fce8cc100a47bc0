@@ -1,0 +1,24 @@
+package SequenceList;
+
+public class LinkList<T> {
+	private int N = 0;// Á´±í³¤¶È
+
+	Node head = null;
+
+	class Node{
+		T value;
+		Node next;
+		public Node(T value, Node next) {
+			this.value = value;
+			this.next = next;
+		}
+	}
+
+	public LinkList() {
+		this.N = 0;
+		this.head = new Node;
+	}
+	
+	
+
+}
