@@ -90,4 +90,22 @@ public class LinkList<T> implements Iterable<T> {
 			return n.value;	
 		}	
 	}
+	public void reverse() {
+		if(isEmpty()) {
+			return ;
+		}
+		reverse(head.next);
+	}
+	public Node reverse(Node n) {
+		if(n.next==null) {
+			head.next=n;
+			n.next=null;
+			return n;
+		}
+		else {
+			reverse(n.next).next=n;
+			n.next=null;
+			return n;
+		}
+	}
 }

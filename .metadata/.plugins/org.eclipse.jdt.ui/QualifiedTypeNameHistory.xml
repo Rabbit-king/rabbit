@@ -4,7 +4,6 @@
     <fullyQualifiedTypeName name="com.sun.tools.javac.code.Type.ForAll"/>
     <fullyQualifiedTypeName name="com.sun.tools.sjavac.server.SysInfo"/>
     <fullyQualifiedTypeName name="java.util.Deque"/>
-    <fullyQualifiedTypeName name="java.util.LinkedList"/>
     <fullyQualifiedTypeName name="java.util.Collections"/>
     <fullyQualifiedTypeName name="first.second"/>
     <fullyQualifiedTypeName name="java.lang.InternalError"/>
@@ -33,7 +32,6 @@
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="Insert_Sort.sort_In"/>
     <fullyQualifiedTypeName name="Insert_Sort.shell_sorted"/>
-    <fullyQualifiedTypeName name="first.Solution"/>
     <fullyQualifiedTypeName name="javax.smartcardio.CommandAPDU"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="MergeSorted.Merge"/>
@@ -46,4 +44,7 @@
     <fullyQualifiedTypeName name="SequenceList.List.SItera"/>
     <fullyQualifiedTypeName name="java.lang.Iterable"/>
     <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
+    <fullyQualifiedTypeName name="first.Solution"/>
+    <fullyQualifiedTypeName name="first.ListNode"/>
 </qualifiedTypeNameHistroy>
