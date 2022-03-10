@@ -108,4 +108,23 @@ public class LinkList<T> implements Iterable<T> {
 			return n;
 		}
 	}
+	
+	public int startofcircle() {
+		int temp=0;
+		
+		Node i1=head;//¿ìÖ¸Õë
+		Node j1=head;//ÂıÖ¸Õë
+		Node temp1=head;
+		do {
+			i1=i1.next.next;
+			j1=j1.next;
+		}while(j1!=i1);
+		
+		while(temp1!=j1) {
+			temp1=temp1.next;
+			j1=j1.next;
+			temp++;
+		}
+		return temp;
+	}
 }

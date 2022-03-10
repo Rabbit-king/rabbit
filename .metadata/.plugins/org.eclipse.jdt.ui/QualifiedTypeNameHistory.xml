@@ -28,14 +28,11 @@
     <fullyQualifiedTypeName name="first.mp"/>
     <fullyQualifiedTypeName name="second.selected"/>
     <fullyQualifiedTypeName name="third.Solution"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="Insert_Sort.sort_In"/>
     <fullyQualifiedTypeName name="Insert_Sort.shell_sorted"/>
     <fullyQualifiedTypeName name="javax.smartcardio.CommandAPDU"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="MergeSorted.Merge"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="java.lang.Comparable"/>
     <fullyQualifiedTypeName name="quicksort.quick"/>
     <fullyQualifiedTypeName name="javax.sound.midi.Sequence"/>
@@ -44,7 +41,13 @@
     <fullyQualifiedTypeName name="SequenceList.List.SItera"/>
     <fullyQualifiedTypeName name="java.lang.Iterable"/>
     <fullyQualifiedTypeName name="java.util.Iterator"/>
-    <fullyQualifiedTypeName name="java.util.LinkedList"/>
     <fullyQualifiedTypeName name="first.Solution"/>
     <fullyQualifiedTypeName name="first.ListNode"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="joesefu.first"/>
+    <fullyQualifiedTypeName name="joesefu.Node"/>
+    <fullyQualifiedTypeName name="joesefu.Link"/>
 </qualifiedTypeNameHistroy>

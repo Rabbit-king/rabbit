@@ -1,0 +1,16 @@
+package joesefu;
+
+import java.util.LinkedList;
+import java.util.Scanner;
+
+//约瑟夫问题，有n个人，从1开始报数，报到3的人退出，还剩下哪两个人
+
+public class first {
+
+	
+}
+
+class Node{
+	int val;
+	
+}

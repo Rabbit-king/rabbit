@@ -1,0 +1,54 @@
+package joesefu;
+
+//约瑟夫问题，有n个人，从1开始报数，报到3的人退出，还剩下哪两个人
+
+public class first {
+	public static void main(String[] args) {
+		Link l=new Link();
+		
+		for(int i=1;i<42;i++) {
+			l.add(i);
+		}
+		
+		l.left(3);
+	}
+}
+
+class Node {
+	int val;
+	Node next;
+
+	public Node(int val, Node next) {
+		this.val = val;
+		this.next = next;
+	}
+}
+
+class Link {
+	Node head = new Node(0, null);
+	Node last = head;
+	int N = 0;
+
+	public void add(int i) {
+		last.next = new Node(i, head.next);
+		last = last.next;
+		N++;
+	}
+
+	public void left(int n) {
+		Node temp = head;
+		int i = 0;
+		while (true) {
+			if (N < n) {
+				break;
+			}
+			i++;
+			temp = temp.next;
+			if (i % (n - 1) == 0) {
+				temp.next = temp.next.next;
+				N--;
+				i=0;
+			}
+		}
+	}
+}
