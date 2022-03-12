@@ -1,0 +1,40 @@
+package second;
+
+//¿ìËÙÅÅÐò
+
+public class second {
+	
+}
+
+class Solution {
+    public int[] sortArray(int[] nums) {
+    	int left=0;
+    	int right=nums.length-1;
+    	sorted(nums,left,right);	
+		return nums;
+    }   
+    public void sorted(int[] nums,int left,int right) {
+		if(left>=right) {
+			return ;
+		}
+		int key=nums[left];
+		int low=left+1;
+		int height=right;		
+		while(low<=height) {
+			while(nums[low]<nums[key]&&low<height)
+				low++;
+			while(nums[height]>nums[key]&&height>left)
+				height--;
+			if(low<height) {
+				int temp=nums[low];
+				nums[low]=nums[height];
+				nums[height]=nums[low];
+			}
+		}	
+		int temp=nums[key];
+		nums[key]=nums[height];
+		nums[height]=temp;	
+		sorted(nums,left,height-1);
+		sorted(nums,height+1,right);
+	}
+}

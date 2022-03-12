@@ -1,0 +1,44 @@
+package second;
+
+//¿ìËÙÅÅÐò
+
+public class second {
+	public static void main(String[] args) {
+		int[] nums= {1,20,5,9,97,8,10,1,7,1,1};
+		Solution s=new Solution();
+		s.sortArray(nums);
+	}
+}
+
+class Solution {
+    public int[] sortArray(int[] nums) {
+    	int left=0;
+    	int right=nums.length-1;
+    	sorted(nums,left,right);	
+		return nums;
+    }   
+    public void sorted(int[] nums,int left,int right) {
+		if(left>=right) {
+			return ;
+		}
+		int key=left;
+		int low=left+1;
+		int height=right;		
+		while(low<height) {
+			while(nums[low]<nums[key]&&low<height)
+				low++;
+			while(nums[height]>=nums[key]&&low<height)
+				height--;
+			if(low<height) {
+				int temp=nums[low];
+				nums[low]=nums[height];
+				nums[height]=temp;
+			}
+		}	
+		int temp=nums[key];
+		nums[key]=nums[height];
+		nums[height]=temp;	
+		sorted(nums,left,height-1);
+		sorted(nums,height+1,right);
+	}
+}

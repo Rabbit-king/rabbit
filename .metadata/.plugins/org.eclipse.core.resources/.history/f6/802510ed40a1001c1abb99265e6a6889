@@ -1,0 +1,12 @@
+package first;
+
+import java.util.Stack;
+
+public class anti_polan {
+	
+}
+
+class anti{
+	Stack<String> stc=new Stack<String>();
+	
+}

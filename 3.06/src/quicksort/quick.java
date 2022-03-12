@@ -30,13 +30,13 @@ public class quick {
 	// 有越界问题
 	public int par(Comparable[] a, int low, int height) {
 		int left = low;
-		int right = height + 1;
+		int right = height ;
 		Comparable key = a[low];
 
 		while (left < right) {
 			//这个--和++对边界的影响要再理解
-			while (less(key, a[--right]) && left < right)
-			while (less(a[++left], key) && left < right) 
+			while (less(key, a[right--]) && left < right);
+			while (less(a[left++], key) && left < right) ;
 			if (left < right)
 				exch(a, left, right);
 		}

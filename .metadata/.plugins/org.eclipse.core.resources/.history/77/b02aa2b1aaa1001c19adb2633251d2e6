@@ -1,0 +1,11 @@
+package table;
+
+public class chartable<key extends Comparable<T>, value>  {
+	class Node {
+		key k;
+		value v;
+		Node next;
+	}
+	
+	
+}

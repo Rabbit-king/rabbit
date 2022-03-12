@@ -1,0 +1,10 @@
+package first;
+
+public class test {
+	
+	
+	public static void main(String[] args) {
+		anti_polan an=new anti_polan();
+		an.anti({"3","17","15"});
+	}
+}

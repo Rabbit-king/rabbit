@@ -1,0 +1,12 @@
+package first;
+
+public class first {
+
+}
+
+
+class Solution {
+    public List<Integer> countSmaller(int[] nums) {
+
+    }
+}

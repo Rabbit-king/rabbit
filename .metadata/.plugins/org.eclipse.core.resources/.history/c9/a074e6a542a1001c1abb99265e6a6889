@@ -1,0 +1,29 @@
+package first;
+
+import java.util.HashSet;
+import java.util.Set;
+import java.util.Stack;
+
+public class anti_polan {
+	String[] data= {""};
+	Set<String> st=new HashSet<>();
+	
+	
+	
+	public void anti() {
+		Stack<Integer> stc = new Stack<>();
+		st.add("+");
+		st.add("-");
+		st.add("*");
+		st.add("/");
+		
+		for(String i:data) {
+			if(!st.contains(i)) {
+				stc.push();
+			}
+		}
+	
+	
+	}
+
+}
