@@ -1,7 +1,0 @@
-package table;
-
-public class text {
-	public static void main(String[] args) {
-		chartable<Integer,Integer> ch=new text();
-	}
-}

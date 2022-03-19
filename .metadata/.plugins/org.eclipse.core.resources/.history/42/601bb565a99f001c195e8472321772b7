@@ -1,7 +1,0 @@
-package Linked;
-
-import java.util.LinkedList;
-
-public class list {
-	LinkedList<E>
-}

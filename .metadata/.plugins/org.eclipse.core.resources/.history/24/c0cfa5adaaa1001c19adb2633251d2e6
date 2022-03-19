@@ -1,9 +1,0 @@
-package table;
-
-public class chartable<key, value> {
-	class Node {
-		key k;
-		value v;
-		Node next;
-	}
-}

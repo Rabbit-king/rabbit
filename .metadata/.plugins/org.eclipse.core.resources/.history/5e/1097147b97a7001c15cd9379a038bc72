@@ -1,0 +1,8 @@
+package quicksort;
+
+public class quicksort<T extends Comparable<T>> {
+	public T[] quicksort(T[] date) {
+		int left=0;
+		return null;
+	}
+}

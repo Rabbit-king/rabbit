@@ -43,7 +43,6 @@
     <fullyQualifiedTypeName name="java.util.HashSet"/>
     <fullyQualifiedTypeName name="java.util.Set"/>
     <fullyQualifiedTypeName name="first.anti_polan"/>
-    <fullyQualifiedTypeName name="java.lang.Comparable"/>
     <fullyQualifiedTypeName name="table.chartable.Node"/>
     <fullyQualifiedTypeName name="table.text"/>
     <fullyQualifiedTypeName name="table.chartable"/>
@@ -58,4 +57,7 @@
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="second.Solution"/>
     <fullyQualifiedTypeName name="second.QuickSort"/>
+    <fullyQualifiedTypeName name="tree.Node"/>
+    <fullyQualifiedTypeName name="quicksort.quicksort"/>
+    <fullyQualifiedTypeName name="java.lang.Comparable"/>
 </qualifiedTypeNameHistroy>

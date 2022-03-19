@@ -11,5 +11,6 @@ public static void main(String[] args) {
 	m.put(2, "bbb");
 	m.put(5, "hub");
 	m.get(2);
+	System.out.println(m.get(5));
 }
 }

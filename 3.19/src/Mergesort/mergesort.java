@@ -1,0 +1,5 @@
+package Mergesort;
+//πÈ≤¢≈≈–Ú ∏¥œ∞ Œ¥ÕÍ≥…
+public class mergesort<T extends Comparable<T>> {
+	
+}
