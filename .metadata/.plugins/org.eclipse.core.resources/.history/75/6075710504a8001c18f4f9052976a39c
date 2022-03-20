@@ -1,0 +1,25 @@
+package Mergesort;
+//πÈ≤¢≈≈–Ú ∏¥œ∞ Œ¥ÕÍ≥…
+public class mergesort<T extends Comparable<T>> {
+	private T[] temp;
+	
+	public T[] mergesort(T[] date) {
+		int left=0;
+		int right=date.length-1;
+		int mid =(left+right)/2;
+		
+		mergesort(date, left, mid);
+		mergesort(date,mid+1,right);
+		
+		return date;
+	}
+	
+	public T[] mergesort(T[] date,int left,int right) {
+		if(left>=right)
+			return null;
+		
+		
+		
+		return date;
+	}
+}
