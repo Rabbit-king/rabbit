@@ -1,0 +1,20 @@
+package first;
+
+//¹é²¢¸´Ï°
+
+public class first {
+	
+}
+
+class mergesort{
+	Comparable a[]=null;
+	int N=0;
+	public mergesort(int N) {
+		this.a = new Comparable[N];
+		this.N=N;
+	}
+	
+	
+	
+	
+}
