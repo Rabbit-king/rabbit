@@ -1,0 +1,31 @@
+package Heapsort;
+
+public class Heapsort<T extends Comparable<T>> {
+	T data[]=null;
+	int N=0;
+
+	public Heapsort(T[] a) {
+		this.data = a;
+		N = a.length;
+	}
+	public void BeHeap(){
+		for(int i=N;i>1;i--){
+			if(less(data[i/2],data[i]))
+				exchange(i/2,i);
+		}
+	}	
+	public boolean less(T w, T v) {
+		return w.compareTo(v) < 0;
+	}
+	public void exchange(int i, int j) {
+		T temp;
+		temp = data[i];
+		data[i] = data[j];
+		data[j] = temp;
+	}
+	public void print() {
+		for(int i=1;i<=N;i++) {
+			System.out.print(data[i]+" ");
+		}
+	}
+}

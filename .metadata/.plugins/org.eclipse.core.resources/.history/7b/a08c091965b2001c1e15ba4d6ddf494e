@@ -1,0 +1,36 @@
+package Heap;
+
+public class Heap<T extends Comparable<T>> {
+	Comparable<T> data[] = null;
+	int N=0;
+	public Heap(int x) {
+		data =new Comparable[x];
+	}
+
+	public int size() {
+		return N;
+	}
+	
+	public void exchange(int i,int j) {
+		Comparable<T> temp;
+		
+	}
+	
+	public boolean less(Comparable<T> w, Comparable<T> v) {
+		return w.compareTo( (T) v) < 0;
+	}
+
+	public void add(Comparable<T> d) {
+		data[++N]=d;
+		if(N>1)
+			swim();
+	}
+	
+	public void swim() {
+		int k=N;
+		if(less(data[k/2],data[k])) {
+			
+		}
+	}
+
+}

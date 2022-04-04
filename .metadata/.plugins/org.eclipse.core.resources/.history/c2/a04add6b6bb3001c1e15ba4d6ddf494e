@@ -1,0 +1,8 @@
+package Heapsort;
+
+public class test {
+	public static void main(String[] args) {
+		Integer a[]= {2,77,1,2,0,5,11,2,63,4};
+		Heapsort<Integer> hs=new Heapsort<Integer>(a); 
+	}
+}

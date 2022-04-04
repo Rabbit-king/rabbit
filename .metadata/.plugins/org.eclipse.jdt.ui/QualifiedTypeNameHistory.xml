@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.util.Collections"/>
-    <fullyQualifiedTypeName name="first.second"/>
-    <fullyQualifiedTypeName name="java.lang.InternalError"/>
-    <fullyQualifiedTypeName name="seconde.Solution"/>
-    <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
     <fullyQualifiedTypeName name="third.third"/>
     <fullyQualifiedTypeName name="jdk.vm.ci.meta.Local"/>
@@ -18,7 +13,6 @@
     <fullyQualifiedTypeName name="third.Solution"/>
     <fullyQualifiedTypeName name="Insert_Sort.sort_In"/>
     <fullyQualifiedTypeName name="Insert_Sort.shell_sorted"/>
-    <fullyQualifiedTypeName name="javax.smartcardio.CommandAPDU"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="MergeSorted.Merge"/>
     <fullyQualifiedTypeName name="quicksort.quick"/>
@@ -28,7 +22,6 @@
     <fullyQualifiedTypeName name="SequenceList.List.SItera"/>
     <fullyQualifiedTypeName name="java.lang.Iterable"/>
     <fullyQualifiedTypeName name="java.util.Iterator"/>
-    <fullyQualifiedTypeName name="first.Solution"/>
     <fullyQualifiedTypeName name="first.ListNode"/>
     <fullyQualifiedTypeName name="joesefu.first"/>
     <fullyQualifiedTypeName name="joesefu.Node"/>
@@ -49,15 +42,22 @@
     <fullyQualifiedTypeName name="second.QuickSort"/>
     <fullyQualifiedTypeName name="tree.Node"/>
     <fullyQualifiedTypeName name="quicksort.quicksort"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="Mergesort.mergesort"/>
     <fullyQualifiedTypeName name="Tree.tree"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="java.util.LinkedList"/>
     <fullyQualifiedTypeName name="thd.thd"/>
     <fullyQualifiedTypeName name="java.util.HashSet"/>
     <fullyQualifiedTypeName name="first.mergesort"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="priorityqueue.PriorityQueue"/>
+    <fullyQualifiedTypeName name="priorityqueue.PriorityQueueTest"/>
+    <fullyQualifiedTypeName name="java.util.PriorityQueue"/>
+    <fullyQualifiedTypeName name="Heap.Heap"/>
+    <fullyQualifiedTypeName name="Heapsort.Heapsort"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="javax.smartcardio.CommandAPDU"/>
     <fullyQualifiedTypeName name="java.lang.Comparable"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="first.Solution"/>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
 </qualifiedTypeNameHistroy>
