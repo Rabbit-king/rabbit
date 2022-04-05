@@ -1,0 +1,15 @@
+package first;
+
+//计算数组中最大的子序列和
+
+public class first {
+	
+}
+
+class Solution {
+	public int MaxArray(int a[]) {
+		
+		
+		return 0;
+	}
+}

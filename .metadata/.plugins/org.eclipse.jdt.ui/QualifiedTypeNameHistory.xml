@@ -38,7 +38,6 @@
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="com.sun.tools.sjavac.pubapi.PubApi"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
-    <fullyQualifiedTypeName name="second.Solution"/>
     <fullyQualifiedTypeName name="second.QuickSort"/>
     <fullyQualifiedTypeName name="tree.Node"/>
     <fullyQualifiedTypeName name="quicksort.quicksort"/>
@@ -58,6 +57,7 @@
     <fullyQualifiedTypeName name="javax.smartcardio.CommandAPDU"/>
     <fullyQualifiedTypeName name="java.lang.Comparable"/>
     <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="first.Solution"/>
     <fullyQualifiedTypeName name="java.util.LinkedList"/>
+    <fullyQualifiedTypeName name="first.Solution"/>
+    <fullyQualifiedTypeName name="second.Solution"/>
 </qualifiedTypeNameHistroy>

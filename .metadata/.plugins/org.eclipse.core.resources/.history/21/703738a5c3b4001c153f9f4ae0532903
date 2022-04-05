@@ -1,0 +1,18 @@
+package first;
+
+//计算数组中最大的子序列和
+
+public class first {
+	
+}
+
+class Solution {
+	public int MaxArray(int a[],int dp,int index) {
+		int max=a[0];
+		
+		dp=Math.max(max+a[index], dp);
+		
+		
+		return 0;
+	}
+}
