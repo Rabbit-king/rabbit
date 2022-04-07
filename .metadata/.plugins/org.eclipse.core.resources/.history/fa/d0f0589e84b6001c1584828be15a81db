@@ -1,0 +1,20 @@
+package third;
+
+public class third {
+	
+	
+}
+
+class Solution{
+	public long isok(long data) {
+		long sum=0;
+		
+		for(long i=1;i<=2021041820210418;i++) {
+			for(long j=1;j<2021041820210418/i;j++) {
+				if(2021041820210418/(i*j)==0)
+			}
+		}
+		
+		return 0;
+	}
+}

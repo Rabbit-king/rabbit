@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
-    <fullyQualifiedTypeName name="third.third"/>
     <fullyQualifiedTypeName name="jdk.vm.ci.meta.Local"/>
     <fullyQualifiedTypeName name="second.solu"/>
     <fullyQualifiedTypeName name="java.lang.Long"/>
-    <fullyQualifiedTypeName name="second.second"/>
     <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
     <fullyQualifiedTypeName name="first.first"/>
     <fullyQualifiedTypeName name="first.mp"/>
     <fullyQualifiedTypeName name="second.selected"/>
-    <fullyQualifiedTypeName name="third.Solution"/>
     <fullyQualifiedTypeName name="Insert_Sort.sort_In"/>
     <fullyQualifiedTypeName name="Insert_Sort.shell_sorted"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
@@ -46,8 +42,6 @@
     <fullyQualifiedTypeName name="thd.thd"/>
     <fullyQualifiedTypeName name="java.util.HashSet"/>
     <fullyQualifiedTypeName name="first.mergesort"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="priorityqueue.PriorityQueue"/>
     <fullyQualifiedTypeName name="priorityqueue.PriorityQueueTest"/>
     <fullyQualifiedTypeName name="java.util.PriorityQueue"/>
@@ -60,4 +54,10 @@
     <fullyQualifiedTypeName name="java.util.LinkedList"/>
     <fullyQualifiedTypeName name="first.Solution"/>
     <fullyQualifiedTypeName name="second.Solution"/>
+    <fullyQualifiedTypeName name="second.second"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="third.Solution"/>
 </qualifiedTypeNameHistroy>

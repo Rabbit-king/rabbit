@@ -1,0 +1,17 @@
+package third;
+
+public class third {
+	
+	
+}
+
+class Solution{
+	public long isok(long i) {
+		long sum=0;
+		
+		long i=1;
+		for()
+		
+		return 0;
+	}
+}
