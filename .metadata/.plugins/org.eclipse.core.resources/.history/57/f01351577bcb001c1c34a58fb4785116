@@ -1,0 +1,16 @@
+package first;
+
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.util.ArrayList;
+
+public class first {
+	File fl=new File("H:\\Important_file\\Hive\\ÊµÑé¿Î\\sisth\\.emp.txt");
+	ArrayList<String> arr=new ArrayList<String>();
+	FileReader fr= FileReader(fl);
+	BufferedReader br=new BufferedReader();
+	
+	
+	
+}

@@ -1,8 +1,0 @@
-package Heapsort;
-
-public class Heapsort<T extends Comparable<T>> {
-	T a[]=null;
-	int N=0;
-	
-	
-}

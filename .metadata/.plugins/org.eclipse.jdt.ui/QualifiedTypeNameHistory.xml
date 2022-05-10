@@ -1,17 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="jdk.vm.ci.meta.Local"/>
-    <fullyQualifiedTypeName name="second.solu"/>
-    <fullyQualifiedTypeName name="java.lang.Long"/>
-    <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
-    <fullyQualifiedTypeName name="first.first"/>
-    <fullyQualifiedTypeName name="first.mp"/>
-    <fullyQualifiedTypeName name="second.selected"/>
-    <fullyQualifiedTypeName name="Insert_Sort.sort_In"/>
-    <fullyQualifiedTypeName name="Insert_Sort.shell_sorted"/>
-    <fullyQualifiedTypeName name="java.lang.Override"/>
-    <fullyQualifiedTypeName name="MergeSorted.Merge"/>
-    <fullyQualifiedTypeName name="quicksort.quick"/>
     <fullyQualifiedTypeName name="javax.sound.midi.Sequence"/>
     <fullyQualifiedTypeName name="SequenceList.List"/>
     <fullyQualifiedTypeName name="java.lang.Object"/>
@@ -31,12 +19,8 @@
     <fullyQualifiedTypeName name="java.util.Map"/>
     <fullyQualifiedTypeName name="java.util.HashMap"/>
     <fullyQualifiedTypeName name="java.lang.Character"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="com.sun.tools.sjavac.pubapi.PubApi"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="second.QuickSort"/>
     <fullyQualifiedTypeName name="tree.Node"/>
-    <fullyQualifiedTypeName name="quicksort.quicksort"/>
     <fullyQualifiedTypeName name="Mergesort.mergesort"/>
     <fullyQualifiedTypeName name="Tree.tree"/>
     <fullyQualifiedTypeName name="thd.thd"/>
@@ -47,7 +31,6 @@
     <fullyQualifiedTypeName name="java.util.PriorityQueue"/>
     <fullyQualifiedTypeName name="Heap.Heap"/>
     <fullyQualifiedTypeName name="Heapsort.Heapsort"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="javax.smartcardio.CommandAPDU"/>
     <fullyQualifiedTypeName name="java.lang.Comparable"/>
     <fullyQualifiedTypeName name="java.util.List"/>
@@ -55,9 +38,26 @@
     <fullyQualifiedTypeName name="first.Solution"/>
     <fullyQualifiedTypeName name="second.Solution"/>
     <fullyQualifiedTypeName name="second.second"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
     <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="third.Solution"/>
+    <fullyQualifiedTypeName name="com.sun.tools.sjavac.pubapi.PubApi"/>
+    <fullyQualifiedTypeName name="lanqiaodasai.third"/>
+    <fullyQualifiedTypeName name="lanqiaodasai.forth"/>
+    <fullyQualifiedTypeName name="lanqiaodasai.quicksort"/>
+    <fullyQualifiedTypeName name="quicksort.quicksort"/>
+    <fullyQualifiedTypeName name="lanqiaodasai.fifth"/>
+    <fullyQualifiedTypeName name="jdk.internal.org.jline.utils.InputStreamReader"/>
+    <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="first.first"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="com.sun.tools.javap.TryBlockWriter"/>
+    <fullyQualifiedTypeName name="jdk.internal.org.objectweb.asm.tree.TryCatchBlockNode"/>
+    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
+    <fullyQualifiedTypeName name="java.io.FileReader"/>
 </qualifiedTypeNameHistroy>

@@ -1,0 +1,8 @@
+package first;
+
+import java.io.File;
+
+public class first {
+	File fl=new File("H:\\Important_file\\Hive\\ÊµÑé¿Î\\sisth\\.emp.txt");
+	
+}

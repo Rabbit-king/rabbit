@@ -1,5 +1,0 @@
-package Heap;
-
-public class Heaptest {
-	Heap<Integer> h=new Heap<Integer>(20);
-}
